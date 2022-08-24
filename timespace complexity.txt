@@ -30,3 +30,5 @@ Why:
         {for(j=0;j<10;j++)
           {for(k=0;k<10;k++)
             {print("Hello");}}}
+
+TLE: Time limit Extended         // Check ISSUES for how to avoid TLE.
