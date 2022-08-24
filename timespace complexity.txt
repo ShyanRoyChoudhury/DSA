@@ -1,0 +1,32 @@
+Time Complexity:
+
+Time taken by algo to complete the processing. Lower is better.
+Why: 
+  1:To write better algos
+  2:For comparison of Algos.
+  
+  Big O notation  , Theta notation          , Omega notation
+  Upper bound(max)   ,   for avg case complexity  , lower bound
+  
+  Comstant time- O(1)
+  ex: for(i=0;i<10;i++)
+      {print("Hello");}
+      
+  Linear time- O(n)
+  ex: for(i=0;i<n;i++)
+      {print("Hello");}
+      
+  logarithmic time- O(log n)
+  ex: Binary search
+  
+  Quadratic time - O(n^2)
+  ex: for(i=0;i<10;i++)
+        {for(j=0;j<10;j++)
+          {print("Hello");}}
+          
+  Cubic time- O(n^3)
+  
+  ex: for(i=0;i<10;i++)
+        {for(j=0;j<10;j++)
+          {for(k=0;k<10;k++)
+            {print("Hello");}}}
