@@ -1,0 +1,22 @@
+Space Complexity: Used to determine the space used by the algorithm.
+
+O(1):
+ex: 
+a[5]={1,2,3,4,5}
+for(i=1,i<10;i++)
+{
+  print(a[i])
+}
+
+O(n):
+ex:
+int n;
+for(i=0;i<n;i++)
+{a[n]=Integer.parseInt(sc.readLine());}
+
+ex 2:
+for(i=0;i<n;i++)
+{
+a[n]
+for(j=0;i<n;j++)
+{} }      // S.C= O(n)
