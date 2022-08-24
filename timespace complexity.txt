@@ -29,6 +29,6 @@ Why:
   ex: for(i=0;i<10;i++)
         {for(j=0;j<10;j++)
           {for(k=0;k<10;k++)
-            {print("Hello");}}}
+            {print("Hello");}}}       // Check ISSUES for complexity chart.
 
-TLE: Time limit Extended         // Check ISSUES for how to avoid TLE.
+TLE: Time limit Extended         // Check ISSUES for how to avoid TLE chart.
