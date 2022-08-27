@@ -18,5 +18,6 @@ def myPow(self, x, n):
     return x*temp*temp
   
   """
-  
+  time complexity: O(log n)
+  space complexity: O(log n)
   """
