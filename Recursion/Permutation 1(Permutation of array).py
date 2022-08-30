@@ -29,3 +29,42 @@ class Solution(object):
       S.C:
       
       """
+
+   # Approach 2:
+   # Source: YT- Leadcoding by fraz- permutation 1
+
+class Solution(object):
+    def permute(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        def helper(pos, n):
+
+            #  Base Case executes when we have traversed the entire nums[]
+            if pos >= n:
+
+                ans.append(nums[:])
+                return
+
+
+            for i in range(pos, n):
+
+                # We simply use our swapping logic to create Permutations
+
+                nums[i], nums[pos] = nums[pos], nums[i]
+
+                # And we ask Recursion to handle rest of the task
+                helper(pos+1, n)
+
+                # Backtrack and undo the change we have done
+
+                nums[i], nums[pos] = nums[pos], nums[i]
+            return
+
+        ans = []
+
+
+        helper(0, len(nums))
+
+        return ans
