@@ -18,7 +18,7 @@ class Solution(object):
             
             for perm in perms:
                 perm.append(n)
-            result.extend(perms)
+            result.extend(perms)   #appending the perms in result[]
             nums.append(n)       #backtracking. Adding the first element of nums in the end.
             
         return result
