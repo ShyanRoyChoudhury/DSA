@@ -32,7 +32,13 @@ class Solution(object):
 
    # Approach 2:
    # Source: YT- Leadcoding by fraz- permutation 1
-
+"""
+This question is exactly similar to Permutations - I
+Only difference being we have duplicate elements in nums[]. But we need to print Unique Permutations only
+For that purpose, we have used a local unordered_set data structure which tells us if that particular element has been previosuly encountered or not
+If we have taken / chosen the element before, we will not include it anymore.
+But if we haven't included the element, we will include it now
+"""
 class Solution(object):
     def permute(self, nums):
         """
