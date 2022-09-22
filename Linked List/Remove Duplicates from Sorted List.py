@@ -16,6 +16,12 @@ class Solution(object):
             head.next = newHead   # Otherwise, their values don't match, so we need to include Head into our Linkedlist
             return head
           
+    """
+        Time Complexity:  O(N) { N is the Number of Nodes present in Linkedlist }
+        Space Complexity: O(N) { Auxillary Recursive Stack Space }
+
+
+    """
           
 # Approach 2: Using iteration
 class Solution(object):
@@ -34,3 +40,10 @@ class Solution(object):
                 temp = temp.next
           
         return head   # at the end we return head of the linked list
+    
+    
+    """
+    Time Complexity:  O(N) { N is the Number of Nodes present in Linkedlist }
+    Space Complexity: O(1)
+
+    """
