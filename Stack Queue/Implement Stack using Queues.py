@@ -1,3 +1,10 @@
+"""
+In this approach, since queue uses FIFO. While pop(): we initially pop the top of queue from the left and append it to the right side of the top of stack(LIFO).
+Once this operation is complete we pop the left most element that was initially the top of stack.
+
+link for explanation: https://youtu.be/rW4vm0-DLYc
+"""
+
 class MyStack:
 
     def __init__(self):
@@ -8,7 +15,7 @@ class MyStack:
 
     def pop(self) -> int:
         for i in range(len(self.q)-1):
-            self.push(self.q.popleft())
+            self.push(self.q.popleft())     
         return self.q.popleft()
 
     def top(self) -> int:
