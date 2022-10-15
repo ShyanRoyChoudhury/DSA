@@ -1,3 +1,7 @@
+"""
+Explanation: https://www.youtube.com/watch?v=RzT6YgrGTyg
+"""
+
 class MyQueue:
 
     def __init__(self):
