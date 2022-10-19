@@ -5,3 +5,7 @@ class NumArray:
 
     def sumRange(self, left: int, right: int) -> int:
         return self.cum[right+1] - self.cum[left]
+"""
+T.C: O(1)
+S.C: O(1) not sure
+"""
