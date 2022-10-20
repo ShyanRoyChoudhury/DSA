@@ -22,3 +22,23 @@ class Solution(object):
  T.C: 
  S.C: 
  """
+
+
+class Solution(object):
+    def reverseString(self, s):
+        """
+        :type s: List[str]
+        :rtype: None Do not return anything, modify s in-place instead.
+        """
+        l = 0
+        r = len(s)
+        
+        for i in range(len(s)-1):
+            s[l], s[r] = s[r], s[l]
+        
+        return s
+    
+  
+        
+        
+        
