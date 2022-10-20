@@ -12,3 +12,9 @@ def deleteMiddle(inputStack, N):
         inputStack.append(top)
      
     helper(inputStack, N, 0)
+
+    
+"""
+T.C: O(1)
+S.C : O(1)
+"""
