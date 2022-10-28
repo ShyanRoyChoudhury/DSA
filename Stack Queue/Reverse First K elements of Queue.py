@@ -1,3 +1,10 @@
+"""
+Approach: Using stacks,
+
+In this approach we get the first k elements from queue and place it in a stack. Since Stack is LIFO, the elements are thus inverted when extracting from stack
+and place in back to the same queue. Now we extract and put the elements to maintain the order of elements.
+"""
+
 from os import *
 from sys import *
 from collections import *
