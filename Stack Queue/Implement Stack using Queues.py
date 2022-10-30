@@ -14,7 +14,8 @@ class MyStack:
         self.q.append(x)
 
     def pop(self) -> int:
-        for i in range(len(self.q)-1):
+        for i in range(len(self.q)-1):  #   when using range(N), the loop iterates upto the N - 1. Here range(N - 1) means we iterate upto the final element 
+                                        #   which we were initially supossed to remove as per (LIFO). 
             self.push(self.q.popleft())     
         return self.q.popleft()
 
