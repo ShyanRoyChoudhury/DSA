@@ -1,5 +1,7 @@
 """
 Approach: using stacks, 
+Here in this approach we will use a loop to traverse till the end of stack. And while traversing we will eventually decode the 
+internal list as we come out of each  nested list. we will store the integers before the nested loops in a variable k.
 Link: https://www.youtube.com/watch?v=qB0zZpBJlh8
 """
 
