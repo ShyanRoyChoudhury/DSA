@@ -1,5 +1,9 @@
 """
 https://www.youtube.com/watch?v=CjKJDloMnwE
+
+
+We will use the concept of binary search. However to find the h-index. If the maximum h-index is present in the list, we return that. 
+When maximum h-index is now present in the list, we return the no. of elements after the h-index value which is present in the list.
 """
 
 
